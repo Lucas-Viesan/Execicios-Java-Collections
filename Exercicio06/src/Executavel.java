@@ -54,8 +54,9 @@ public class Executavel {
 			
 			while(chamarPaciente.hasNext()) {
 				if(chamarPaciente.next().isPrioridade()) {
-					chamarPaciente.remove(); 	
-				}
+					chamarPaciente.remove();	 	
+				} 
+					
 		  	}
 			break;
 	
